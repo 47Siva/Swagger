@@ -4,6 +4,7 @@ import java.util.Collections;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 import com.Swagger.SpringBootSwagger.Constant;
 
@@ -29,4 +30,6 @@ public class SwaggerConfiguration {
 					                        		   "v.3", "http://Swagger.com/tremsofuse", new Contact("Name", "URL", "infoSwagger.com "), 
 					                        		   "OpenSource", "http://Swagger.com/license",Collections.emptyList()));
 		}
+	 
+	
 }
